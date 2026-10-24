@@ -1,0 +1,16 @@
+generated: '2026-10-23'
+method: none
+source:
+- https://zapier.com/apps/omnicell/integrations
+- https://n8n.io/integrations/omnicell/
+- https://composio.dev/toolkits/omnicell
+- https://monid.ai/tools/omnicell
+checked:
+- https://composio.dev/toolkits/omnicell
+- https://monid.ai/tools/omnicell
+- https://n8n.io/integrations/omnicell/
+- https://zapier.com/apps/omnicell/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

@@ -1,25 +1,78 @@
 aid: omnicell
+
 name: Omnicell
-description: 'Omnicell is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by sequoia-capital) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://www.omnicell.com/globalassets/careers/images/omnicell-logo.png
+
+description: 'Omnicell provides medication management and pharmacy automation solutions for hospitals, health systems, and retail pharmacies. Their platform includes automated dispensing cabinets, inventory optimization, and analytics to improve safety, efficiency, and compliance in medication handling. Founded in 2000, Omnicell serves thousands of facilities worldwide, integrating with electronic health records and supporting clinical workflows.'
+
 url: https://raw.githubusercontent.com/api-evangelist/omnicell/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-23 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-23'
+
 modified: '2026-10-23'
+
 tags:
-- Company
-apis: []
+- Pharmacy Management
+- Medication Management
+- Hospital Solutions
+- Enterprise Intelligence
+- Automation
+- Healthcare Technology
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- sequoia-capital
+
 common:
+- type: LLMsTxt
+  url: llms/omnicell-llms.txt
+- type: Hosts
+  url: hosts/omnicell-hosts.yml
+- type: Vendors
+  url: vendors/omnicell-vendors.yml
+- type: TermsOfService
+  url: https://www.omnicell.com/terms/
+- type: PrivacyPolicy
+  url: https://www.omnicell.com/privacy/
+- type: Newsroom
+  url: https://ir.omnicell.com/news/default.aspx
+- type: Leadership
+  url: https://www.omnicell.com/leadership/
+- type: DomainSecurity
+  url: security/omnicell-domain-security.yml
 - type: Website
   url: https://www.omnicell.com/
+
+- type: Documentation
+  url: https://www.omnicell.com/developers
+- type: APIReference
+  url: https://www.omnicell.com/api
+- type: GettingStarted
+  url: https://www.omnicell.com/get-started
+- type: Support
+  url: https://www.omnicell.com/support
+- type: Blog
+  url: https://www.omnicell.com/blog
+
+apis: []
+
+x-backed-by:
+- sequoia-capital
+x-enrichment:
+  date: '2026-10-23'
+  status: enriched
+  artifacts_added: 10
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
